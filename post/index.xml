@@ -5,12 +5,24 @@
     <link>https://jontyhuang-jg.github.io/post/</link>
       <atom:link href="https://jontyhuang-jg.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 19 Dec 2022 16:49:29 +0800</lastBuildDate>
     <image>
       <url>https://jontyhuang-jg.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://jontyhuang-jg.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>A little tutorial for Hugo</title>
+      <link>https://jontyhuang-jg.github.io/post/test/</link>
+      <pubDate>Mon, 19 Dec 2022 16:49:29 +0800</pubDate>
+      <guid>https://jontyhuang-jg.github.io/post/test/</guid>
+      <description>&lt;h1 id=&#34;build-a-mardown-file&#34;&gt;build a mardown file&lt;/h1&gt;
+&lt;p&gt;use command under the path &amp;lsquo;starter-hugo-academic&amp;rsquo;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new post/test3/index.md  &lt;span class=&#34;c1&#34;&gt;# the path under /content&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The command will new  automatically .md file in the default folder &amp;lsquo;content&amp;rsquo;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
@@ -196,7 +208,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-467835912&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-984357612&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -206,7 +218,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-467835912&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-984357612&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

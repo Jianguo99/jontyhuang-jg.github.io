@@ -10,15 +10,43 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://jontyhuang-jg.github.io/post/test/</loc>
+    <lastmod>2022-12-19T16:49:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jontyhuang-jg.github.io/categories/</loc>
+    <lastmod>2022-12-19T16:49:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jontyhuang-jg.github.io/tag/hugo/</loc>
+    <lastmod>2022-12-19T16:49:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jontyhuang-jg.github.io/post/</loc>
+    <lastmod>2022-12-19T16:49:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jontyhuang-jg.github.io/tags/</loc>
+    <lastmod>2022-12-19T16:49:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jontyhuang-jg.github.io/category/test/</loc>
+    <lastmod>2022-12-19T16:49:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jontyhuang-jg.github.io/tag/tutorial/</loc>
+    <lastmod>2022-12-19T16:49:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jontyhuang-jg.github.io/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jontyhuang-jg.github.io/tag/academic/</loc>
+    <loc>https://jontyhuang-jg.github.io/authors/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jontyhuang-jg.github.io/categories/</loc>
+    <loc>https://jontyhuang-jg.github.io/tag/academic/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -26,15 +54,11 @@
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jontyhuang-jg.github.io/post/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jontyhuang-jg.github.io/tags/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://jontyhuang-jg.github.io/post/getting-started/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jontyhuang-jg.github.io/authors/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -43,6 +67,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jontyhuang-jg.github.io/category/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jontyhuang-jg.github.io/authors/admin/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -107,6 +135,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jontyhuang-jg.github.io/publication/journal-article/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jontyhuang-jg.github.io/authors/robert-ford/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
