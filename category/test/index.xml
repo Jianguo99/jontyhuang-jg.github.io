@@ -21,6 +21,34 @@
 &lt;p&gt;use command under the path &amp;lsquo;starter-hugo-academic&amp;rsquo;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new post/test3/index.md  &lt;span class=&#34;c1&#34;&gt;# the path under /content&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The command will new  automatically .md file in the default folder &amp;lsquo;content&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/test/test_hub9ee31969f44a6711206a2baf9f065b4_241861_0d466b92d397263341af8f4cfac2d286.webp 400w,
+               /post/test/test_hub9ee31969f44a6711206a2baf9f065b4_241861_c0b89431b57f494ffef4a390eab73600.webp 760w,
+               /post/test/test_hub9ee31969f44a6711206a2baf9f065b4_241861_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://jontyhuang-jg.github.io/post/test/test_hub9ee31969f44a6711206a2baf9f065b4_241861_0d466b92d397263341af8f4cfac2d286.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
