@@ -9,7 +9,7 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>机器学习面试总结</title><link>https://jontyhuang-jg.github.io/post/machinelearning/</link><pubDate>Tue, 14 Feb 2023 17:12:59 +0800</pubDate><guid>https://jontyhuang-jg.github.io/post/machinelearning/</guid><description/></item><item><title>A little tutorial for Hugo</title><link>https://jontyhuang-jg.github.io/post/test/</link><pubDate>Mon, 19 Dec 2022 16:49:29 +0800</pubDate><guid>https://jontyhuang-jg.github.io/post/test/</guid><description>&lt;h1 id="build-a-mardown-file">build a mardown file&lt;/h1>
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>A little tutorial for Hugo</title><link>https://jontyhuang-jg.github.io/post/test/</link><pubDate>Mon, 19 Dec 2022 16:49:29 +0800</pubDate><guid>https://jontyhuang-jg.github.io/post/test/</guid><description>&lt;h1 id="build-a-mardown-file">build a mardown file&lt;/h1>
 &lt;p>use command under the path &amp;lsquo;starter-hugo-academic&amp;rsquo;&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">hugo new post/test3/index.md &lt;span class="c1"># the path under /content&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The command will new automatically .md file in the default folder &amp;lsquo;content&amp;rsquo;.&lt;/p>
@@ -173,7 +173,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-476891532" class="chart">&lt;/div>
+&lt;div id="chart-782413596" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -182,7 +182,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-476891532', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-782413596', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
