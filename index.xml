@@ -9,7 +9,36 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>机器学习面试总结</title><link>https://jontyhuang-jg.github.io/post/machinelearning/</link><pubDate>Tue, 14 Feb 2023 17:12:59 +0800</pubDate><guid>https://jontyhuang-jg.github.io/post/machinelearning/</guid><description/></item><item><title>A little tutorial for Hugo</title><link>https://jontyhuang-jg.github.io/post/test/</link><pubDate>Mon, 19 Dec 2022 16:49:29 +0800</pubDate><guid>https://jontyhuang-jg.github.io/post/test/</guid><description>&lt;h1 id="build-a-mardown-file">build a mardown file&lt;/h1>
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Review of Neural Operator</title><link>https://jontyhuang-jg.github.io/post/review-of-neural-operator/</link><pubDate>Wed, 22 Feb 2023 10:01:51 +0800</pubDate><guid>https://jontyhuang-jg.github.io/post/review-of-neural-operator/</guid><description>&lt;h1 id="1-physics-informed-models">1 Physics-informed models&lt;/h1>
+&lt;p>PINN&lt;/p>
+&lt;h1 id="2-finite-neural-operator">2 Finite Neural Operator&lt;/h1>
+&lt;p>针对某一个特定的方程（初边值确定，参数确定），利用机器学习模型去逼近解函数。由于模型只能一个解的逼近，所以称为有限算子。&lt;/p>
+&lt;h1 id="3-infinite-neural-operator">3 Infinite Neural Operator&lt;/h1>
+&lt;p>无限维度算子本质思想是构建两个函数空间（Banch space)的映射。 目前，学术界构建神经算子的思想有两种：&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>基于the theorem of Chen and Chen。 该定理证明了神经网络能够逼近任意非线性连续算子或者非线性连续泛函。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>基于Green function. The key idea show as following&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>$$
+u(x) = \int \mathcal{G}(x,y)f(y)dy
+$$&lt;/p>
+&lt;p>where $u(x)$ is the solution function and $f(y)$ is the input function. $\mathcal{G}(x,y) $called Kernel function.&lt;/p>
+&lt;h2 id="markdown-增加文献引用">Markdown 增加文献引用&lt;/h2>
+&lt;p>这边文章是介绍如何在 Markdown 中增加文献引用。&lt;a href="#refer-anchor-1">&lt;sup>1&lt;/sup>&lt;/a>&lt;/p>
+&lt;p>&lt;a href="#ref-2">&lt;sup>2&lt;/sup>&lt;/a>&lt;/p>
+&lt;h2 id="refenrence">Refenrence&lt;/h2>
+&lt;div id="refer-anchor-1">&lt;/div>
+&lt;ul>
+&lt;li>[1] &lt;a href="http://xueshu.baidu.com/" target="_blank" rel="noopener">百度学术&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div id="refer-2">&lt;/div>
+&lt;ul>
+&lt;li>[2] &lt;a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank" rel="noopener">Wikipedia&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>机器学习面试总结</title><link>https://jontyhuang-jg.github.io/post/machinelearning/</link><pubDate>Tue, 14 Feb 2023 17:12:59 +0800</pubDate><guid>https://jontyhuang-jg.github.io/post/machinelearning/</guid><description/></item><item><title>A little tutorial for Hugo</title><link>https://jontyhuang-jg.github.io/post/test/</link><pubDate>Mon, 19 Dec 2022 16:49:29 +0800</pubDate><guid>https://jontyhuang-jg.github.io/post/test/</guid><description>&lt;h1 id="build-a-mardown-file">build a mardown file&lt;/h1>
 &lt;p>use command under the path &amp;lsquo;starter-hugo-academic&amp;rsquo;&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">hugo new post/test3/index.md &lt;span class="c1"># the path under /content&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The command will new automatically .md file in the default folder &amp;lsquo;content&amp;rsquo;.&lt;/p>
@@ -173,7 +202,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-714389265" class="chart">&lt;/div>
+&lt;div id="chart-973218645" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -182,7 +211,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-714389265', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-973218645', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
