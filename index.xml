@@ -20,7 +20,7 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;p>基于the theorem of Chen and Chen。 该定理证明了神经网络能够逼近任意非线性连续算子或者非线性连续泛函。例如：&lt;a href="https://www.notion.so/Learning-nonlinear-operators-via-DeepONet-based-on-the-universal-approximation-theorem-of-operators-0cbe8e44c7564751846755b4936abb42" target="_blank" rel="noopener">DeepONet&lt;/a>, &lt;a href="https://www.notion.so/Learning-Operators-with-Coupled-Attention-cb840978bdcd441f8a9e3142284f61a3" target="_blank" rel="noopener">Learning Operators with Coupled Attention&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>基于Green function的积分变换. The key idea show as following&lt;/p>
+&lt;p>基于Kernel function的积分变换. The key idea show as following&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;p>$$
@@ -28,7 +28,13 @@ u(x) = \int \mathcal{G}(x,y)f(y)dy\tag{1}
 $$&lt;/p>
 &lt;p>where $u(x)$ is the solution function and $f(y)$ is the input function. $\mathcal{G}(x,y) $called Kernel function. 例如：&lt;a href="https://www.notion.so/Neural-Operator-Graph-Kernel-Network-for-Partial-Differential-Equations-a77faed36de649b7902b8418ff4157db" target="_blank" rel="noopener">Graph Kernel Network&lt;/a> , Fourier Neural Network, Koopman neural operator, &lt;a href="https://www.notion.so/Integral-Autoencoder-Network-for-Discretization-Invariant-Learning-0c349257cb6647dbb51bba9b0a94f90a" target="_blank" rel="noopener">IAE-Net&lt;/a>.&lt;/p>
 &lt;ul>
-&lt;li>大型神经网络直接逼近，无理论基础（目前文章比较新，以会议文章为主）。主要还是j基于图神经网络，自注意力机制神经网络。&lt;/li>
+&lt;li>大型神经网络直接逼近，无理论基础。
+&lt;ul>
+&lt;li>基于图神经网络。&lt;/li>
+&lt;li>自注意力机制神经网络。&lt;/li>
+&lt;li>基于卷积神经网络。 DeepUQ&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;h1 id="4-basic-knowledge">4 Basic Knowledge&lt;/h1>
 &lt;p>&lt;strong>Mesh-independent(resolution-invariant, Mesh-free)&lt;/strong> means that models share the same network parameters between different discretizations of the underlying function spaces and can be used for zero-shot super-resolution. 为了实现这种尺度不变的变换，目前主要是两大类方法。&lt;/p>
